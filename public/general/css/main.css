@@ -1,0 +1,39 @@
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+
+    --main: #FFFFFF;
+    --main-accent: #ffa00c;
+    --mid-accent: #3c7c80;
+    --red: #80403c;
+    --low-accent: #767676;
+
+    --dim: #eFeFeF;
+
+
+    --header-height: 5rem;
+    --main-height: calc(100vh - var(--header-height));
+}
+
+* {
+    font-family: Lexend;
+}
+
+@font-face {
+    font-family: Lexend;
+    src: url("../assets/Lexend-VariableFont_wght.ttf?g=1");
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: var(--dim);
+}
+
+main {
+    height: var(--main-height);
+
+    background-color: var(--dim);
+}

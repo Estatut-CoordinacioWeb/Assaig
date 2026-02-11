@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+    margin: 0;
+    padding: 0 2rem;
+
+    box-sizing: border-box;
+
+    height: var(--header-height);
+    width: 100%;
+
+    background-color: var(--mid-accent);
+}
+
+footer>span {
+    color: var(--main);
+}

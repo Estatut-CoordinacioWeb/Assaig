@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Assaig - Ins l'Estatut</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/main.css?g=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/editor.css?g=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/components.css?g=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/header.css?g=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/footer.css?g=1'>
+    <script src='../js/editor.bundle.js'></script>
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="/">
+            <img src="/favicon.ico?g=1">
+            <h1><span>As</span><span>sa</span><span>ig</span></h1>
+        </a>
+
+        <div class="auth-menu">
+            <a href="editor.html">Editor</a>
+            <a href="editor.html">Les meves trameses</a>
+            <a href="editor.html">Taula de classificació</a>
+        </div>
+    </header>
+
+    <main>
+
+        <div>
+            <div>
+                <span>Codi</span>
+                <div>
+                    <select id="lang-selector">
+                        <option value="python3">Python 3.12</option>
+                        <option value="nodejs">Node.js</option>
+                        <option value="java">Java</option>
+                    </select>
+                    <button id="send">Executar</button>
+                </div>
+            </div>
+            <div id="src"></div>
+        </div>
+
+        <div>
+            <div>
+                <span>Sortida</span>
+            </div>
+            <div id="out"></div>
+            <span id="time-data" hidden>Execució feta en <span></span> ms</span>
+        </div>
+
+    </main>
+
+    <footer>
+        <span>&copy; 2025 Ins l'Estatut</span>
+    </footer>
+</body>
+
+</html>

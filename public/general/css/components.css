@@ -1,0 +1,36 @@
+button {
+    padding: .5rem 1rem;
+
+    background-color: var(--main-accent);
+
+    border-radius: .3rem;
+    border: 0;
+
+    cursor: pointer;
+}
+
+dialog {
+    padding: 3rem;
+
+    width: 80%;
+    height: 80%;
+
+    box-sizing: border-box;
+
+    border: 0;
+    background-color: #FFFFFF;
+
+    /* border-radius: 3rem; */
+
+    outline: none;
+}
+
+dialog > div {
+    display: flex;
+    
+    height: 100%;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+}

@@ -1,0 +1,166 @@
+.task-preview {
+    margin: .3rem 0;
+    padding: 1rem 0;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+
+    width: 40%;
+
+    background-color: var(--main);
+
+    cursor: pointer;
+    user-select: none;
+
+    transition: .1s ease-in-out;
+}
+
+.task-preview:hover {
+    background-color: var(--mid-accent);
+}
+
+.task-preview:hover * {
+    color: var(--white);
+}
+
+.task-preview>div>img {
+    padding: .2rem;
+
+    height: 2rem;
+    width: auto;
+
+    box-sizing: border-box;
+
+    background-color: var(--main);
+    border-radius: .3rem;
+}
+
+.task-preview>div>img {
+    height: 2rem;
+    width: auto;
+
+    background-color: var(--main);
+}
+
+
+
+.task-preview>div {
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: .3rem;
+}
+
+.task-preview>div:nth-child(2) {
+    justify-content: flex-start;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    overflow-y: scroll;
+}
+
+#task-preview div {
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+
+#task-preview>div>div>div {
+    width: 45%;
+}
+
+#task-preview button:focus,
+#task-preview button:hover {
+    outline: none;
+    background-color: var(--mid-accent);
+    color: var(--white);
+}
+
+#task-preview>div>div:first-child {
+    display: flex;
+
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+#task-preview>div>div {
+    display: flex;
+
+    justify-content: center;
+
+    width: 100%;
+}
+
+#task-preview h1 {
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+#task-preview #m-points,
+#task-preview #m-langs {
+    margin-left: 2rem;
+}
+
+#task-preview h2 {
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+#task-preview #m-body {
+    box-sizing: border-box;
+
+    overflow-y: scroll;
+}
+
+#task-preview .m-example {
+    padding: 1rem 0;
+
+    display: flex;
+    flex-direction: row;
+
+    gap: 1rem;
+}
+
+#task-preview .m-example>div {
+    display: flex;
+
+    flex-direction: column;
+
+    width: 50%;
+
+    gap: 1rem;
+}
+
+#task-preview .m-example>div>div {
+    display: flex;
+
+    padding: .3rem;
+    height: fit-content;
+
+    background-color: var(--dim);
+    font-family: Consolas, 'Courier New', monospace;
+    overflow-x: scroll;
+    white-space: pre;
+
+    align-items: flex-start;
+}
+
+#task-preview button {
+    font-size: 2rem;
+    font-weight: 200;
+
+    transition: .1s ease-in-out;
+}

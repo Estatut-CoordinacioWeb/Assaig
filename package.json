@@ -1,0 +1,24 @@
+{
+  "name": "assaig",
+  "version": "1.0.0",
+  "description": "Tasques per a repassar i investigar",
+  "license": "ISC",
+  "author": "Diego Muñoz Jorquera",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "restart-db": "mysql -u root -p -e \"source db/main.sql\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "docker build -t assaig-backend .",
+    "start-linux": "docker run -p 3000:3000 -d -v /var/run/docker.sock:/var/run/docker.sock -t assaig-backend",
+    "start": "docker run -d -v \\\\.\\pipe\\docker_engine:/var/run/docker.sock assaig-backend"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "csv-parse": "^6.1.0",
+    "dbconnector": "file:lib/dbConnector",
+    "docker": "file:lib/docker",
+    "express": "^5.2.1",
+    "express-session": "^1.18.2"
+  }
+}

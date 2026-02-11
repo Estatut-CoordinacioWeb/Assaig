@@ -1,0 +1,1 @@
+docker run --rm --read-only --pids-limit=64 --cpus=0.5 --memory=64m --network=none --cap-drop=ALL --security-opt=no-new-privileges crwded/python

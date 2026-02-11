@@ -1,0 +1,103 @@
+[
+    {
+        "title": "Hola món!",
+        "body": "Escriu un programa que mostri per pantalla \"Hola Món!!\"",
+        "points": 0.1,
+        "examples": [
+            {
+                "entrada": "",
+                "salida": "Hola Món!!",
+                "public": true
+            }
+        ],
+        "langs": ["python3", "nodejs", "java"]
+    },
+    {
+        "title": "Salutació",
+        "body": "Escriu un programa que demani a l'usuari el seu nom i el saludi. Seguirà el format: Hola, <nom>!",
+        "points": 0.2,
+        "examples": [
+            {
+                "entrada": "Joan",
+                "salida": "Hola, Joan!",
+                "public": true
+            }
+        ],
+        "langs": ["python3", "nodejs", "java"]
+    },
+    {
+        "title": "Descompte",
+        "body": "Feu un programa que escrigui el percentatge descomptat en una compra, introduint pel teclat el preu de la tarifa i el preu pagat.",
+        "points": 2,
+        "examples": [
+            {
+                "entrada": "100\n75\n",
+                "salida": "T'han fet un descompte del 25 %",
+                "public": true
+            }
+        ],
+        "langs": ["python3", "nodejs", "java"]
+    },
+    {
+        "title": "Conversió segons",
+        "body": "Fes un programa que demani un nombre de segons, i que després faci la conversió a la seva equivalència en dies, hores, minuts i segons. Format sortida: <X> dies, <X> hores, <X> minuts i <X> segons.",
+        "points": 6,
+        "examples": [
+            {
+                "entrada": "259.200",
+                "salida": "3 dies, 17 hores, 46 minuts i 40 segons.",
+                "public": true
+            }
+        ],
+        "langs": ["python3", "nodejs", "java"]
+    },
+    {
+        "title": "Rang de nombres",
+        "body": "Fes un programa que demani dos nombres enters a l'usuari  (a i b). Després, ha de mostrar els nombres enters entre a i b.",
+        "points": 0,
+        "examples": [
+            {
+                "entrada": "3\n8\n",
+                "salida": "4, 5, 6, 7",
+                "public": true
+            }
+        ],
+        "langs": ["python3", "nodejs", "java"]
+    },
+    {
+        "title": "Primer o no",
+        "body": "Entrar un número enter i veure si és primer o no.",
+        "points": 5.723,
+        "examples": [
+            {
+                "entrada": "27",
+                "salida": "No",
+                "public": true
+            },
+            {
+                "entrada": "31",
+                "salida": "Sí",
+                "public": true
+            }
+        ],
+        "langs": ["python3", "nodejs", "java"]
+    },
+    {
+        "title": "DNI correcte",
+        "body": "Introduir un vuit dígits i una lletra i comprovar si és un DNI vàlid.",
+        "points": 3,
+        "examples": [
+            {
+                "entrada": "12345678A",
+                "salida": "Incorrecte",
+                "public": true
+            },
+            {
+                "entrada": "12345678Z",
+                "salida": "Correcte",
+                "public": true
+            }
+        ],
+        "langs": ["python3", "nodejs", "java"]
+    }
+]

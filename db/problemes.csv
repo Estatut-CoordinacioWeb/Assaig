@@ -1,0 +1,23 @@
+Títol,Enunciat,Exemple1,Exemple2_opcional,Exemple3_opcional,Puntuació,Llenguatges
+Hola món!,"Escriu un programa que mostri per pantalla ""Hola Món!!""","Entrada:
+
+Sortida:
+Hola Món!!",,,0.1,"java, nodejs, python3"
+Salutació,"Escriu un programa que demani a l'usuari el seu nom i el saludi. Seguirà el format: Hola, <nom>!","Entrada:
+Joan
+Sortida:
+Hola, Joan!",,,0.2,"java, nodejs, python3"
+Descompte,"Feu un programa que escrigui el percentatge descomptat en una compra, introduint pel teclat el preu de la tarifa i el preu pagat.","Entrada 1: 100
+Entrada 2: 75
+Sortida: T'han fet un descompte del 25 %",,,2,"java, nodejs, python3"
+Conversió segons,"Fes un programa que demani un nombre de segons, i que després faci la conversió a la seva equivalència en dies, hores, minuts i segons. Format sortida: <X> dies, <X> hores, <X> minuts i <X> segons.","Entrada: 259.200
+Sortida: 3 dies, 17 hores, 46 minuts i 40 segons.",,,6,"java, nodejs, python3"
+Rang de nombres,"Fes un programa que demani dos nombres enters a l'usuari  (a i b). Després, ha de mostrar els nombres enters entre a i b.","Entrada 1: 3
+Entrada 2: 8
+Sortida: 4, 5, 6, 7",,,,"java, nodejs, python3"
+Primer o no,Entrar un número enter i veure si és primer o no.,"Entrada: 27
+Sortida: No","Entrada: 31
+Sortida: Sí",,5.723,"java, nodejs, python3"
+DNI correcte,Introduir un vuit dígits i una lletra i comprovar si és un DNI vàlid.,"Entrada: 12345678A
+Sortida: Incorrecte","Entrada: 12345678Z
+Sortida: Correcte",,3,"java, nodejs, python3"
